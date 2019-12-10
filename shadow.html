@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>박스 그림자</title>
+  <style>
+    .shadow{
+      background-color: #000;
+      width: 200px;
+      text-align: center;
+      margin: 50px;
+    }
+    .text-box{
+      background-color: #fff;
+      padding: 1em;
+      border: 1px solid #000;
+      position: relative;
+      top: 5px;
+      left: 5px;
+    }
+    .box-shadow{
+      background-color: #ff0;
+      text-align: center;
+      padding: 1em;
+      width: 200px;
+      margin: 50px;
+      border: 1px solid #000;
+      box-shadow: -5px -5px 0 0 #000;
+    }
+  </style>
+</head>
+<body>
+  <div class="shadow">
+    <div class="text-box">
+      Welcome
+    </div>
+  </div>
+
+  <div class="box-shadow">
+    Homepage
+  </div>
+</body>
+</html>
