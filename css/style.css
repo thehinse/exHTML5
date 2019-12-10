@@ -44,7 +44,7 @@ body{
 }
 /* 헤더 */
 .header{
-  height: 10vh;
+  height: auto;
 }
 /* 비주얼 */
 .visual{
