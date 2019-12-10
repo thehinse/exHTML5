@@ -1,11 +1,13 @@
 @charset "utf-8";
+@import url("./normalize.css");
+@import url("./reset.css");
 
 .container{
   background-color: silver;
 }
-.header{
+/* .header{
   background-color: yellow;
-}
+} */
 .visual{
   background-color: lime;
 }
@@ -21,8 +23,17 @@
 .footer{
   background-color: pink;
 }
+html{
+  font-size: 10px;
+}
 body{
-  margin: 0;
+  color: #181818;
+  font-size: 1.4rem;
+}
+/* 링크 스타일 */
+a{
+  color: inherit;
+  text-decoration: none;
 }
 /* 숨김 콘텐츠 */
 .a11y-hidden{
@@ -38,13 +49,40 @@ body{
 *, *::before, *::after{
   box-sizing: border-box;
 }
+
 .header, .visual, .main, .slogan, .footer{
   width: 940px;
   margin: 0 auto;
 }
 /* 헤더 */
 .header{
-  height: auto;
+  background-color: #fff;
+  border-radius: 0 0 15px 15px;
+  position: relative;
+  padding: 0 30px;
+}
+/* 로고 */
+.logo{
+  position: absolute;
+  top: 45px;
+  left: 65px;
+}
+/* 멤버링크 */
+.member{
+  text-align: right;
+  font-size: 0;
+  padding: 2px 0;
+  margin-right: -10px;
+}
+.member li , .member a{
+  display: inline-block;
+}
+.member li{
+  font-size: 1.4rem;
+}
+.member a{
+  text-transform: uppercase;
+  padding: 5px 10px;
 }
 /* 비주얼 */
 .visual{
