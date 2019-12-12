@@ -292,6 +292,47 @@ a{
   display: block;
   clear: both;
 }
+/* 검색 폼*/
+.search-form{
+  background: #ccc linear-gradient(#ccc, #eee);
+  border: 1px solid #aaa;
+  border-bottom-color: #fff;
+  border-radius: 15px 15px 0 0;
+  padding: 15px 25px 10px;
+}
+.search-form *{
+  vertical-align: top;
+}
+.search-form [type="search"]{
+  width: 200px;
+  height: 24px;
+  border: 1px solid #aaa;
+  border-radius: 3px;
+  padding: 1px 1px 1px 0.5em;
+}
+.btn-search{
+  border: 1px solid #aaa;
+  border-radius: 3px;
+  padding: 0 10px;
+  background: #222;
+  color: #fff;
+  height: 24px;
+  margin-left: 2px;
+}
+/* .search-form{
+  border: 1px solid #aaa;
+  border-radius: 15px 15px 0 0;
+  padding: 10px 15px;
+  background: linear-gradient(#ccc, #eee);
+}
+.btn-search{
+  background-color: #222;
+  color: #fff;
+  width: 50px;
+  height: 28px;
+  font-size: 1.3rem;
+  border-radius: 5px;
+} */
 /* 슬로건 */
 .slogan{
   height: 10vh;
