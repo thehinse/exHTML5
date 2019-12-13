@@ -478,6 +478,30 @@ a{
 .related{
   margin-top: 10px;
 }
+.related-list{
+  background: #fff;
+  height: 27px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: all 0.4s 0s ease-in-out;
+  margin-top: 10px;
+}
+.related-list li{
+  padding: 2px;
+}
+.related-list a{
+  display: block;
+  line-height: 21px;
+  text-indent: 1em;
+}
+.related-list a:hover{
+  color: rgb(240,81,11);
+}
+.related-list:hover{
+  height: 147px;
+  padding: 10px 0;
+}
 /* 슬로건 */
 .slogan{
   padding: 10px 70px 10px 170px;
