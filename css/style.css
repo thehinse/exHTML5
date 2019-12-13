@@ -427,6 +427,57 @@ a{
   right: -8px;
   padding: 8px;
 }
+/* 신규 이벤트 및 관련 사이트 */
+.event-related{
+  background: yellow;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  padding: 10px;
+  background: #ccc linear-gradient(#ccc, #eee);
+}
+.event{
+  position: relative;
+  border-bottom: 1px solid #aaa;
+}
+.event-heading, .related-heading{
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.event p{
+  margin: 10px 0;
+}
+.event-thumbnail img{
+  border: 1px solid #ccc;
+  box-shadow: 5px 5px 0 0 #aaa;
+}
+.point-color{
+  color: rgb(240,81,11);
+}
+.btn-event{
+  height: 18px;
+  overflow: hidden;
+  position: absolute;
+  top: 3px;
+  right: 0;
+}
+.btn-event-prev, .btn-event-next{
+  width: 19px;
+  height: 100%;
+  border: 0;
+  padding: 0;
+  background-image: url("./images/back_forward.png");
+  background-repeat: no-repeat;
+}
+.btn-event-prev{
+  background-position: 0 0;
+}
+.btn-event-next{
+  background-position: -36px 0;
+}
+.related{
+  margin-top: 10px;
+}
 /* 슬로건 */
 .slogan{
   padding: 10px 70px 10px 170px;
